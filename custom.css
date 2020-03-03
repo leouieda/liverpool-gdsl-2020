@@ -2,10 +2,6 @@
     color: #dddddd;
 }
 
-.reveal h3 {
-	text-transform: none;
-}
-
 .imgshadow {
     border: none;
     background: none;
@@ -19,17 +15,41 @@
 
 .col {
     flex: 1;
+    padding: 0 2% !important;
 }
 
-.attribution, .attribution a {
+.col-img {
+    flex: 3;
+    padding: 0 2% !important;
+}
+
+.col-text {
+    flex: 2;
+    padding: 0 2% !important;
+}
+
+.attribution {
+    font-size: 0.45em !important;
+}
+
+.bottom-left {
     position: fixed;
-    bottom: 2%;
-    right: 1%;
-    font-size: 0.6em !important;
+    bottom: 3%;
+    left: 2%;
+}
+
+.bottom-right {
+    position: fixed;
+    bottom: 3%;
+    right: 2%;
 }
 
 /* Reveal tweaks
  * ************************************************************************* */
+
+.reveal {
+    font-size: 70px;
+}
 
 .reveal section img {
     border: none;
@@ -55,4 +75,17 @@
 
 section.has-light-background h1 {
     color: #333333;
+}
+
+.reveal h3 {
+	text-transform: none;
+}
+
+.reveal ul {
+    font-size: 0.7em;
+    text-align: left;
+}
+
+.reveal li {
+    margin-bottom: 5%;
 }
