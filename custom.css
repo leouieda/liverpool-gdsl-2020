@@ -55,6 +55,15 @@
     border: none;
     box-shadow: none;
     background: none;
+    margin: 0;
+    max-width: none;
+    max-height: none;
+}
+
+.reveal section video {
+    margin: 0;
+    max-width: none;
+    max-height: none;
 }
 
 .reveal ul.fa-ul {
