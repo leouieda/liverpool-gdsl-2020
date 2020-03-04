@@ -482,6 +482,9 @@
 
 <section>
   <h2>Fatiando a Terra 2.0 &#x1F680;</h2>
+  <p style="margin-top: 5%;">
+    How to build tools that can scale, will last, and are trustworthy
+  </p>
 </section>
 
 <section>
@@ -515,6 +518,227 @@
       </ul>
     </div>
   </div>
+</section>
+
+<section>
+  <img src="img/verde.svg" width="80%">
+  <p style="margin-top: 3%">
+    Machine learning inspired spatial data processing and interpolation
+  </p>
+  <div class="bottom-right" style="background-color: #dddddd;">
+    <p class="attribution" style="padding: 10px; margin:0;">
+      doi:<a href="https://doi.org/10.21105/joss.00957">10.21105/joss.00957</a>
+    </p>
+  </div>
+</section>
+
+<section>
+  <img src="img/verde-gallery.jpg" width="55%">
+</section>
+
+<section>
+  <img src="img/pooch.svg" width="80%">
+  <p style="margin-top: 3%">
+    Manage data registries: download, cache, update, unzip, etc
+  </p>
+  <p style="margin-top: 3%; font-size: 0.7em" class="fragment">
+    Used by other packages to manage sample data:<br> Verde, Harmonica,
+    MetPy,
+    scikit-image (PR <a href="https://github.com/scikit-image/scikit-image/pull/3945">3945</a>),
+    and yt (PR <a href="https://github.com/yt-project/yt/pull/2417/">2417</a>)
+  </p>
+  <div class="bottom-right" style="background-color: #dddddd;">
+    <p class="attribution" style="padding: 10px; margin:0;">
+      doi:<a href="https://doi.org/10.21105/joss.01943">10.21105/joss.01943</a>
+    </p>
+  </div>
+</section>
+
+<section>
+  <h3>Documentation is crucial</h3>
+  <ul style="margin-top: 2%;">
+    <li class="fragment">
+      Undocumented code will not be widely used
+    </li>
+    <li class="fragment">
+      Writing docs makes your code better
+    </li>
+    <li class="fragment">
+      Forces to think clearly about design
+    </li>
+    <li class="fragment">
+      ... and use your own code in examples
+    </li>
+    <li class="fragment">
+      <strong>Document before you implement</strong>
+    </li>
+    <li class="fragment">
+      "DDD: documentation driven development"
+    </li>
+  </ul>
+</section>
+
+<section>
+  <div class="container">
+    <div class="col-img">
+      <img src="img/fatiando-contributing.jpg" width="100%">
+    </div>
+    <div class="col-text">
+      <p style="text-align: left; margin-bottom: 5%;">
+        Nurturing our small community
+      </p>
+      <ul>
+        <li>
+          Code of Conduct
+          <br>
+          for everyone
+        </li>
+        <li>
+          Contributing Guide
+          <br>
+          for new developers
+        </li>
+        <li>
+          Maintenance Guide
+          <br>
+          for new maintainers
+        </li>
+        <li>
+          <strong>New</strong>
+          Authorship Guidelines
+          <br>
+          for giving (academic) credit
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="col-img">
+      <img src="img/fatiando-contributing.jpg" width="100%">
+    </div>
+    <div class="col-text">
+      <p style="text-align: left; margin-bottom: 5%;">
+        Nurturing our small community
+      </p>
+      <ul>
+        <li>
+          Code of Conduct
+          <br>
+          for everyone
+        </li>
+        <li>
+          Contributing Guide
+          <br>
+          for new developers
+        </li>
+        <li>
+          Maintenance Guide
+          <br>
+          for new maintainers
+        </li>
+        <li>
+          <strong>New</strong>
+          Authorship Guidelines
+          <br>
+          for giving (academic) credit
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="col">
+      <img src="img/fatiando-contributing-pr.jpg" width="100%">
+      <p class="fragment" style="margin-top: 20%;">
+        Guide updates (<i class="fas fa-robot"></i>)
+      </p>
+    </div>
+    <div class="col">
+      <img class="fragment" src="img/fatiando-bot-pooch.jpg" width="100%">
+      <img class="fragment" src="img/fatiando-bot-harmonica.jpg" width="100%">
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="col-img">
+      <img src="img/fatiando-pr-checks.jpg" width="100%">
+    </div>
+    <div class="col-text">
+      <p style="text-align: left; margin-bottom: 5%;">
+        Code checks (<i class="fas fa-robot"></i>)
+      </p>
+      <ul>
+        <li class="fragment">
+          For every commit/PR
+        </li>
+        <li class="fragment">
+          Check code style
+          (<a href="https://github.com/psf/black">black</a>)
+        </li>
+        <li class="fragment">
+          Run tests
+          (<a href="https://docs.pytest.org/">pytest</a>)
+        </li>
+        <li class="fragment">
+          Check test coverage
+          (<a href="https://codecov.io/">codecov</a>)
+        </li>
+        <li class="fragment">
+          Build the docs
+          (<a href="https://www.sphinx-doc.org/">sphinx</a>)
+        </li>
+        <li class="fragment">
+          Multiple combinations of OS, Python, dependencies
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="col-img">
+      <img src="img/fatiando-travis-deploy.jpg" width="100%">
+    </div>
+    <div class="col-text">
+      <p style="text-align: left; margin-bottom: 5%;">
+        Deployment (<i class="fas fa-robot"></i>)
+      </p>
+      <ul>
+        <li class="fragment">
+          New tag created on GitHub (<code>v1.0.0</code>)
+        </li>
+        <li class="fragment">
+          Build HTML docs in new folder and push to gh-pages
+        </li>
+        <li class="fragment">
+          Point <code>/latest</code> to the new folder
+        </li>
+        <li class="fragment">
+          Build source/wheel and push to PyPI
+        </li>
+        <li class="fragment">
+          conda-forge bot picks it up from there
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- FUTURE OUTLOOK -->
+<!-- =============================================================================== -->
+
+<section data-background-color="#192237"
+         data-background-transition="none"
+         >
+    <h1>Towards the future</h1>
 </section>
 
 <!-- REPRODUCIBILITY the stack, standing on shoulders -->
